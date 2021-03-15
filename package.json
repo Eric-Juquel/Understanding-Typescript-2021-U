@@ -1,14 +1,19 @@
 {
-  "name": "understanding-ts-u-2021",
+  "name": "understanding-typescript",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Understanding TypeScript Course Setup",
+  "main": "app.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "lite-server"
   },
-  "repository": "https://github.com/Eric-Juquel/Understanding-Typescript-2021-U.git",
-  "author": "Eric J <ejuquel@yahoo.fr>",
-  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "course"
+  ],
+  "author": "Maximilian Schwarzmüller",
+  "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.5.4"
   }
 }
