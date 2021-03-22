@@ -1,4 +1,4 @@
-namespace App {
+
   // Autobind Decorator to bind the "this" keyword
   export function Autobind(_: any, _2: string, descriptor: PropertyDescriptor) {
     const originalMethod = descriptor.value;
@@ -12,4 +12,4 @@ namespace App {
     };
     return adjDescriptor;
   }
-}
+
